@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-single-price-grid-component-with-flexbox-and-css-grid-oCAiZvCTy1)
 - Live Site URL: [Single Price Grid Component](https://single-price-alejandro.netlify.app)
 
 ## My process
