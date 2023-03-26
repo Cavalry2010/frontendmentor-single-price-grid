@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.sr-only {
+  font-size: 0;
+  width: 1px;
+  height: 1px;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.subscription-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: max-content;
+  max-width: 63.5rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px 10px rgba(152, 166, 189, 0.3);
+  overflow: hidden;
+}
+
+.subscription-desc {
+  grid-column: 1 / -1;
+  background-color: #fff;
+  max-height: min-content;
+  padding: 4rem;
+}
+
+.secondary-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 2.4rem;
+}
+
+.desc-sub-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 1rem;
+}
+
+.desc-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: hsl(218, 22%, 67%);
+}
+
+.subscription-price {
+  background-color: #2ab2af;
+  padding: 4rem;
+}
+
+.tertiary-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.time {
+  font-size: 1.6rem;
+  color: rgba(229, 239, 245, 0.9);
+}
+
+.price-text {
+  font-size: 1.55rem;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 3rem;
+}
+
+.sign-up:link,
+.sign-up:visited {
+  display: block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  background-color: #c0df34;
+  padding: 1.4rem;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 4px rgba(0, 0, 0, 0.15);
+}
+
+.sign-up:hover,
+.sign-up:active {
+  background-color: #adc92f;
+}
+
+.why-us {
+  background-color: #55c1bf;
+  padding: 4rem;
+}
+
+.why-us-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.why-us-list li {
+  font-size: 1.4rem;
+  color: rgba(229, 239, 245, 0.9);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
